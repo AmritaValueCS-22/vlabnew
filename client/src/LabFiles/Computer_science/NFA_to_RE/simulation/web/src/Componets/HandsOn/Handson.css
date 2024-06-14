@@ -1,0 +1,31 @@
+.form-container {
+    background-color: white;
+    height: 100vh;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    margin-right: 10px;
+  }
+  
+  .submit-button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #005700;
+  }
+  

@@ -1,0 +1,35 @@
+/* Custom Card Styling */
+.card .card-header .dropdown {
+    line-height: 1;
+  }
+  
+  .card .card-header .dropdown .dropdown-menu {
+    line-height: 1.5;
+  }
+  
+  .card .card-header[data-toggle="collapse"] {
+    text-decoration: none;
+    position: relative;
+    padding: 0.75rem 3.25rem 0.75rem 1.25rem;
+  }
+  
+  .card .card-header[data-toggle="collapse"]::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 1.725rem;
+    line-height: 51px;
+    font-weight: 900;
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+    color: $gray-400; /* Note: You'll need to replace $gray-400 with the appropriate color value */
+  }
+  
+  .card .card-header[data-toggle="collapse"].collapsed {
+    border-radius: $card-border-radius; /* Assuming $card-border-radius is defined elsewhere */
+  }
+  
+  .card .card-header[data-toggle="collapse"].collapsed::after {
+    content: '\f105';
+  }
+  

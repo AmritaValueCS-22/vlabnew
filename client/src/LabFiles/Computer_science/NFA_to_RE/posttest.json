@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Explain the concept of converting a Non-Deterministic Finite Automaton (NFA) to a Regular Expression (RE).",
+      "answers": {
+        "a": "It involves minimizing the number of states in an NFA.",
+        "b": "It is a process of transforming an NFA into an equivalent Regular Expression.",
+        "c": "It focuses on optimizing memory usage in NFAs.",
+        "d": "It deals with the elimination of ε-transitions in an NFA."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Converting an NFA to a Regular Expression involves expressing the language accepted by the NFA in a more compact form.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which step is performed in the conversion of NFA to regular expression?",
+      "answers": {
+        "a": "Subset Construction",
+        "b": "Elimination of ε-transitions",
+        "c": "State removal",
+        "d": "Union of final and initial states"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! The elimination of ε-transitions is a crucial step in the conversion of NFA to regular expression.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of the conversion of NFA to regular expression?",
+      "answers": {
+        "a": "To minimize the number of states",
+        "b": "To optimize memory usage",
+        "c": "To represent language accepted by NFA as a regular expression",
+        "d": "To remove non-determinism"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Correct! The conversion is done to represent the language accepted by NFA in a more concise form as a regular expression.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}
