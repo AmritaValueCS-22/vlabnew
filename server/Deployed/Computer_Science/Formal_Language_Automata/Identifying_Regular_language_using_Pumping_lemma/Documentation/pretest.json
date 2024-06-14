@@ -1,0 +1,57 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "What is the Pumping Lemma commonly used to analyze?",
+        "answers": {
+          "a": "Finite Automata",
+          "b": "Regular Languages",
+          "c": "Context-Free Grammars",
+          "d": "Turing Machines"
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Correct! The Pumping Lemma is commonly used to analyze regular languages.",
+          "c": "Incorrect. Try again.",
+          "d": "Incorrect. Try again."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What does the Pumping Lemma provide insight into regarding regular languages?",
+        "answers": {
+          "a": "It proves all regular languages are finite.",
+          "b": "It establishes the pumpability of regular languages.",
+          "c": "It guarantees the complexity of regular languages.",
+          "d": "It is irrelevant to regular languages."
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Correct! The Pumping Lemma provides insight into the pumpability of regular languages.",
+          "c": "Incorrect. Try again.",
+          "d": "Incorrect. Try again."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What type of languages does the Pumping Lemma specifically apply to?",
+        "answers": {
+          "a": "All languages, including non-formal ones.",
+          "b": "Only context-free languages.",
+          "c": "Regular languages",
+          "d": "Only non-regular languages."
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Incorrect. Try again.",
+          "c": "Correct! The Pumping Lemma specifically applies to regular languages.",
+          "d": "Incorrect. Try again."
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }
+  

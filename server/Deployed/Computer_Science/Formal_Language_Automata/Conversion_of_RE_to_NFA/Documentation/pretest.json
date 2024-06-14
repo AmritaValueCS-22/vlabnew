@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does the term 'Regular Expression' (regex) refer to in the context of computer science?",
+      "answers": {
+        "a": "A programming language feature for loops.",
+        "b": "A sequence of characters representing a search pattern.",
+        "c": "A type of data structure in databases.",
+        "d": "A mathematical equation for complex computations."
+      },
+      "explanations": {
+        "a": "Incorrect. Regular expressions are not related to programming language loops.",
+        "b": "Correct! A regular expression is a sequence of characters representing a search pattern.",
+        "c": "Regular expressions are not a type of data structure.",
+        "d": "Regular expressions are not mathematical equations for computations."
+      },
+      "correctAnswer": "b",
+      "difficulty": "basic"
+    },
+    {
+      "question": "What does 'NFA' stand for in the context of automata theory?",
+      "answers": {
+        "a": "Non-Finite Automaton.",
+        "b": "Nondeterministic Finite Automaton.",
+        "c": "Numbered Finite Algorithm.",
+        "d": "Networked File Archive."
+      },
+      "explanations": {
+        "a": "Incorrect. 'NFA' does not stand for Non-Finite Automaton.",
+        "b": "Correct! 'NFA' stands for Nondeterministic Finite Automaton.",
+        "c": "There is no 'Numbered Finite Algorithm' in the context of automata theory.",
+        "d": "'Networked File Archive' is not related to automata theory."
+      },
+      "correctAnswer": "b",
+      "difficulty": "basic"
+    },
+    {
+      "question": "What is the primary difference between DFA (Deterministic Finite Automaton) and NFA (Nondeterministic Finite Automaton)?",
+      "answers": {
+        "a": "DFA allows more than one transition for a given input symbol.",
+        "b": "NFA allows more than one transition for a given input symbol.",
+        "c": "DFA has an infinite number of states.",
+        "d": "NFA cannot recognize regular languages."
+      },
+      "explanations": {
+        "a": "Incorrect. DFA has only one transition for a given input symbol.",
+        "b": "Correct! NFA allows more than one transition for a given input symbol.",
+        "c": "DFAs have a finite number of states.",
+        "d": "NFAs are capable of recognizing regular languages."
+      },
+      "correctAnswer": "b",
+      "difficulty": "basic"
+    },
+    {
+      "question": "In the context of regex to NFA conversion, what does the acronym 'NFA' represent?",
+      "answers": {
+        "a": "Numerical File Analyzer.",
+        "b": "Nondeterministic Finite Automaton.",
+        "c": "Networked File Access.",
+        "d": "Non-Finite Algorithm."
+      },
+      "explanations": {
+        "a": "'Numerical File Analyzer' is not relevant to regex to NFA conversion.",
+        "b": "Correct! 'NFA' in this context stands for Nondeterministic Finite Automaton.",
+        "c": "'Networked File Access' is not related to regex to NFA conversion.",
+        "d": "'Non-Finite Algorithm' is not the meaning of 'NFA' in this context."
+      },
+      "correctAnswer": "b",
+      "difficulty": "basic"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following best describes the result of minimizing a Deterministic Finite Automaton (DFA)?",
+      "answers": {
+        "a": "The language recognized by the DFA remains unchanged, but the DFA structure becomes more complex.",
+        "b": "The language recognized by the DFA is preserved, and the DFA structure is simplified with fewer states.",
+        "c": "Minimization always changes the recognized language to a more complex one.",
+        "d": "Minimization results in converting the DFA to a Non-Deterministic Finite Automaton (NFA)."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Minimizing a DFA preserves the recognized language while simplifying the DFA structure with fewer states.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of eliminating equivalent states during the minimization of a DFA?",
+      "answers": {
+        "a": "To increase the complexity of the DFA.",
+        "b": "To reduce the number of states without changing the language recognized.",
+        "c": "To convert the DFA into a Regular Expression.",
+        "d": "To add more transitions for better recognition."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Eliminating equivalent states reduces the number of states without changing the recognized language.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "When is it beneficial to minimize a Deterministic Finite Automaton (DFA) in practical applications?",
+      "answers": {
+        "a": "Minimization is always beneficial in all cases.",
+        "b": "It depends on the size of the original DFA and the application requirements.",
+        "c": "Minimization is only beneficial for non-regular languages.",
+        "d": "Minimization is irrelevant for DFA."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! The benefit of minimization depends on the size of the original DFA and the specific application requirements.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does NFA stand for in the context of formal languages and automata?",
+      "answers": {
+        "a": "Non-Finite Automaton",
+        "b": "Non-Deterministic Finite Automaton",
+        "c": "Numerical Finite Algorithm",
+        "d": "Necessary Finite Abstraction"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! NFA stands for Non-Deterministic Finite Automaton.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the context of automata theory, what is the primary purpose of converting an NFA to a Regular Expression?",
+      "answers": {
+        "a": "To create a more complex automaton",
+        "b": "To optimize memory usage",
+        "c": "To represent the accepted language in a concise form",
+        "d": "To add non-deterministic transitions"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Correct! Converting an NFA to a Regular Expression is done to represent the accepted language in a more concise form.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a step involved in the conversion of NFA to Regular Expression?",
+      "answers": {
+        "a": "Determinization",
+        "b": "Minimization",
+        "c": "Subset Construction",
+        "d": "Union of Final and Initial States"
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Correct! Subset Construction is a step involved in the conversion of NFA to Regular Expression.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

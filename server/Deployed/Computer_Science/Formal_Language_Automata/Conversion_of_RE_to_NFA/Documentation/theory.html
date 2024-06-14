@@ -1,0 +1,118 @@
+<ul>
+  <h2>Theory</h2>
+</ul>
+<ul>
+  <li>
+    <h4><b>1. NFA (Non-Deterministic finite automata)</b></h4>
+    <ul>
+      <li>NFA stands for non-deterministic finite automata. It is easier to construct an NFA than DFA for a given regular language.</li>
+      <li>The finite automata are called NFA when there exist many paths for specific input from the current state to the next state.</li>
+      <li>Every NFA is not DFA, but each NFA can be translated into DFA.</li>
+      <li>NFA is defined in the same way as DFA but with the following two exceptions, it contains multiple next states, and it contains ε transition.</li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li>
+    <h4><b>2. Regular Expression</b></h4>
+    <ul>
+      <li>The language accepted by finite automata can be easily described by simple expressions called Regular Expressions. It is the most effective way to represent any language.</li>
+      <li>The languages accepted by some regular expressions are referred to as Regular languages.</li>
+      <li>A regular expression can also be described as a sequence of patterns that defines a string.</li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <h4>Thompson's algorithm</h4>
+</ul>
+<p>Thompson's algorithm is a method for converting a regular expression into an equivalent nondeterministic finite automaton (NFA). The algorithm uses a set of rules to construct the NFA based on the structure of the regular expression, including handling concatenation, union, and the Kleene star. The resulting NFA can then be used to efficiently match the pattern defined by the original regular expression.</p>
+<ul>
+  <b>Rules to convert RE to NFA</b>
+</ul>
+<ul>
+  <li><p>1.Symbol (a) (basic RE)</p></li>
+  <ul>
+    <li>Create two states start state and accept state (final).</li>
+    <li>Add a transition from start state to accept state labelled 'a'.</li>
+    <li>Mark the final/accept state.</li>
+    <li><p>for example:</p></li>
+    <b><li>Regular Expression:"a"</li></b>
+    <div><img src="./images/example1.png" alt="example1"></div>
+  </ul>
+</ul>
+<ul>
+  <li><p>2. Concatenation (ab):</p></li>
+  <b>Converting Regular Expression to NFA using Concatenation </b>
+  <ul>
+    <li><u>Create an NFA for the character 'a':</u></li>
+    <ul>
+      <li>Create a start state and an accept state.</li>
+      <li>Add a transition labeled 'a' from the start state to the accept state.</li>
+    </ul>
+    <li><u>Create an NFA for the character 'b':</u></li>
+    <ul>
+      <li>Create a start state and an accept state.</li>
+      <li>Add a transition labeled 'b' from the start state to the accept state.</li>
+    </ul>
+    <li><u>Connect the NFAs for 'a' and 'b' to represent the concatenation:</u></li>
+    <ul>
+      <li>Merge the accept state of the NFA for 'a' with the start state of the NFA for 'b', and remove the accept state of the NFA for 'a'.</li>
+    </ul>
+    <li><p>for example:</p></li>
+    <b><li>Regular Expression:"ab"</li></b>
+    <div><img src="./images/example2.png" alt="example1"></div>
+  </ul>
+</ul>
+<ul>
+  <li><p>3. Union (a|b):</p></li>
+  <b>Creating NFA for Union Operation</b>
+  <ul>
+    <li><u>States:</u></li>
+    <ul>
+      <li>New Start State</li>
+      <li>New Final State</li>
+    </ul>
+    <li><u>Transitions:</u></li>
+    <ul>
+      <li>Add ε-transitions from the New Start State to the start states of the existing NFAs.</li>
+      <li>Add ε-transitions from the accepting states of the existing NFAs to the New Final State.</li>
+    </ul>
+    <li><b>Note:</b></li>
+    <ul>
+      <li>When the union operation is performed, 4 ε-transitions are used in total:</li>
+      <li>2 ε-transitions for connecting the New Start State to the existing NFAs</li>
+      <li>2 ε-transitions for connecting the accepting states of the existing NFAs to the New Final State</li>
+    </ul>
+    <li><p>for example:</p></li>
+    <b><li>Regular Expression:"a|c"</li></b>
+    <div><img src="./images/example3.png" alt="example1"></div>
+  </ul>
+</ul>
+<ul>
+  <li><p>4. kleene closure (a)*:</p></li>
+  <b>Converting Regular Expression to NFA using Kleene Closure</b>
+  <ul>
+    <li><p><u>States:</u></p></li>
+    <ul>
+      <li>New Start State (S₀)</li>
+      <li>New Accept State (F₀)</li>
+    </ul>
+    <li><p><u>Transitions:</u></p></li>
+    <ul>
+      <li>Add ε-transition from New Start State (S₀) to the original start state of the expression.</li>
+      <li>Add ε-transition from the accept state of the expression back to the original start state.</li>
+      <li>Add ε-transition from original accept state to New Accept State (F₀).</li>
+      <li>Add ε-transition from New Start State (S₀) directly to New Accept State (F₀) for zero occurrences.</li>
+    </ul>
+    <li><p><b>Note:</b></p></li>
+    <ul>
+      <li>When applying the Kleene closure function, 4 ε-transitions are used in total:</li>
+      <li>2 ε-transitions for connecting the New Start State to the original start state and back to the original start state</li>
+      <li>1 ε-transition for connecting the original accept state to the New Accept State</li>
+      <li>1 ε-transition from the New Start State directly to the New Accept State for zero occurrences</li>
+    </ul>
+    <li><p>for example:</p></li>
+    <b><li>Regular Expression:"a*"</li></b>
+    <div><img src="./images/example4.png" alt="example1"></div>
+  </ul>
+</ul>

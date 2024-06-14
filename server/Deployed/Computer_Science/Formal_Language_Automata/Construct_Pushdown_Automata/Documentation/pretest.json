@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary purpose of the stack in a pushdown automaton (PDA)?",
+      "answers": {
+        "a": "To store input symbols.",
+        "b": "To store intermediate results during computation.",
+        "c": "To store the final output.",
+        "d": "To perform arithmetic operations."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! The stack in a PDA is used to store intermediate results during computation.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What distinguishes a pushdown automaton (PDA) from a finite automaton (FA)?",
+      "answers": {
+        "a": "The PDA has an infinite tape.",
+        "b": "The PDA has a stack for additional memory.",
+        "c": "The PDA uses transition rules instead of states.",
+        "d": "The PDA recognizes only regular languages."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! A key distinction is that a PDA has a stack for additional memory, unlike a finite automaton.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which statement is true regarding pushdown automata (PDAs)?",
+      "answers": {
+        "a": "PDAs have unlimited memory.",
+        "b": "PDAs are strictly more powerful than Turing machines.",
+        "c": "PDAs use only transition rules for computation.",
+        "d": "PDAs can recognize context-free languages."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Incorrect. Try again.",
+        "d": "Correct! PDAs can recognize context-free languages.",
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      }
+    }
+  ]
+}

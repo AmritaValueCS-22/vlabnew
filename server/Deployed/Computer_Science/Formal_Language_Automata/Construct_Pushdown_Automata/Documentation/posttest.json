@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In the context of pushdown automata, what is the main purpose of the stack?",
+      "answers": {
+        "a": "To store input symbols.",
+        "b": "To store intermediate results during computation.",
+        "c": "To store the transition rules.",
+        "d": "To store the final output."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! The stack in a pushdown automaton is used to store intermediate results during computation.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What distinguishes a pushdown automaton (PDA) from a finite automaton (FA)?",
+      "answers": {
+        "a": "The PDA has an infinite tape.",
+        "b": "The PDA has a stack for additional memory.",
+        "c": "The PDA can recognize non-regular languages.",
+        "d": "The PDA uses transition rules instead of states."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! A key distinction is that a PDA has a stack for additional memory, unlike a finite automaton.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does the construction of a pushdown automaton (PDA) differ from that of a finite automaton (FA) when recognizing languages?",
+      "answers": {
+        "a": "PDAs are only constructed for regular languages, while FAs can recognize context-free languages.",
+        "b": "PDAs use a stack for additional memory, enabling recognition of context-free languages.",
+        "c": "PDAs have fewer states compared to FAs for the same language.",
+        "d": "The construction process is identical for both PDAs and FAs."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! PDAs use a stack for additional memory, allowing them to recognize context-free languages.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}

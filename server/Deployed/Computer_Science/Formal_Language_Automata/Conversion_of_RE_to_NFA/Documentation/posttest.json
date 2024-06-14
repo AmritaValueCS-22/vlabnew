@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Given the regular expression (a|b)*c, provide the corresponding NFA.",
+      "answers": {
+        "a": "A simple NFA with states for 'a' and 'b'.",
+        "b": "An NFA recognizing zero or more occurrences of 'a' or 'b' followed by 'c'.",
+        "c": "An NFA recognizing 'a' or 'b' followed by zero or more occurrences of 'c'.",
+        "d": "An NFA recognizing 'ab' followed by 'c'."
+      },
+      "explanations": {
+        "a": "Too simplistic for the given regular expression.",
+        "b": "Correct! The regular expression (a|b)*c represents zero or more occurrences of 'a' or 'b' followed by 'c'.",
+        "c": "This describes 'a' or 'b' followed by zero or more 'c's, not the language of the given regular expression.",
+        "d": "This represents 'abc', not the language of the given regular expression."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Explain the role of epsilon transitions in NFAs during the conversion of a regular expression to an NFA.",
+      "answers": {
+        "a": "Epsilon transitions are not used in NFAs.",
+        "b": "Epsilon transitions allow the NFA to transition between states without consuming input.",
+        "c": "Epsilon transitions force the NFA to accept any input symbol.",
+        "d": "Epsilon transitions are only used in DFAs, not NFAs."
+      },
+      "explanations": {
+        "a": "Incorrect. Epsilon transitions are commonly used in NFAs.",
+        "b": "Correct! Epsilon transitions allow the NFA to transition between states without consuming input.",
+        "c": "Epsilon transitions do not force the NFA to accept any input symbol.",
+        "d": "Epsilon transitions are used in both NFAs and DFAs."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the purpose of the Kleene star (*) in a regular expression and how does it affect the corresponding NFA?",
+      "answers": {
+        "a": "The Kleene star represents alternation in a regular expression.",
+        "b": "The Kleene star denotes zero or more occurrences of the preceding element, and it results in loops in the NFA.",
+        "c": "The Kleene star represents the end of a regular expression.",
+        "d": "The Kleene star forces the NFA to recognize only a single occurrence of the preceding element."
+      },
+      "explanations": {
+        "a": "Incorrect. The Kleene star represents repetition, not alternation.",
+        "b": "Correct! The Kleene star denotes zero or more occurrences of the preceding element, and it results in loops in the NFA.",
+        "c": "The Kleene star does not represent the end of a regular expression.",
+        "d": "The Kleene star allows for multiple occurrences, not just a single one."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    }
+  ]
+}

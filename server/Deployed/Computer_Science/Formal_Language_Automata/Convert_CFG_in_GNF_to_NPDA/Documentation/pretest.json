@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the process of converting a Context-Free Grammar (CFG) into a Non-Deterministic Pushdown Automaton (NPDA)?",
+      "answers": {
+        "a": "Parsing",
+        "b": "Lexing",
+        "c": "Compiling",
+        "d": "Conversion"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In the conversion from CFG to NPDA, what type of automaton is NPDA?",
+      "answers": {
+        "a": "Deterministic Finite Automaton (DFA)",
+        "b": "Non-Deterministic Finite Automaton (NFA)",
+        "c": "Deterministic Pushdown Automaton (DPDA)",
+        "d": "Non-Deterministic Pushdown Automaton (NPDA)"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "When converting CFG to NPDA, what elements of CFG correspond to the stack operations in NPDA?",
+      "answers": {
+        "a": "Terminals",
+        "b": "Non-terminals",
+        "c": "Productions",
+        "d": "Variables"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In the context of Deterministic Finite Automaton (DFA), what is the purpose of minimization?",
+      "answers": {
+        "a": "To increase the number of states for better recognition.",
+        "b": "To simplify and reduce the number of states while preserving the language accepted.",
+        "c": "To add more transitions for increased complexity.",
+        "d": "To convert DFA to NFA for easier analysis."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Minimization of DFA is done to simplify and reduce the number of states while preserving the language accepted.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }, {
+      "question": "What is the impact of minimization on the size of a Deterministic Finite Automaton (DFA)?",
+      "answers": {
+        "a": "It always increases the size of the DFA.",
+        "b": "It reduces the size of the DFA by eliminating redundant states.",
+        "c": "It has no effect on the size of the DFA.",
+        "d": "It only affects the transition functions of the DFA."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Correct! Minimization reduces the size of the DFA by eliminating redundant states while preserving the language.",
+        "c": "Incorrect. Try again.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "When is a Deterministic Finite Automaton (DFA) considered minimized?",
+      "answers": {
+        "a": "When it has the maximum number of states.",
+        "b": "When it recognizes a regular language.",
+        "c": "When no equivalent DFA with fewer states can recognize the same language.",
+        "d": "When it contains only one state."
+      },
+      "explanations": {
+        "a": "Incorrect. Try again.",
+        "b": "Incorrect. Try again.",
+        "c": "Correct! A DFA is considered minimized when no equivalent DFA with fewer states can recognize the same language.",
+        "d": "Incorrect. Try again."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}
+ 

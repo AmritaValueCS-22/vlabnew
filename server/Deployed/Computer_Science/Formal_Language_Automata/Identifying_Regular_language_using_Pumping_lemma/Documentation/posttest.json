@@ -1,0 +1,56 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "What does the Pumping Lemma for Regular Languages state?",
+        "answers": {
+          "a": "It guarantees that every regular language can be pumped.",
+          "b": "It ensures that every infinite language is regular.",
+          "c": "It asserts that for any regular language, there exists a pumping length.",
+          "d": "It applies only to context-free languages."
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Incorrect. Try again.",
+          "c": "Correct! The Pumping Lemma for Regular Languages asserts that for any regular language, there exists a pumping length.",
+          "d": "Incorrect. Try again."
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "In the context of the Pumping Lemma, what does 'pumping length' refer to?",
+        "answers": {
+          "a": "The length of the strings in the regular language.",
+          "b": "The minimum length required for a language to be regular.",
+          "c": "The maximum length of strings in the language.",
+          "d": "A constant length used for repeated pumping."
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Incorrect. Try again.",
+          "c": "Incorrect. Try again.",
+          "d": "Correct! The 'pumping length' is a constant length used for repeated pumping in the Pumping Lemma."
+        },
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What is the significance of the Pumping Lemma in proving that a language is not regular?",
+        "answers": {
+          "a": "It proves the language is regular by providing a pumping length.",
+          "b": "It is not applicable to proving non-regularity.",
+          "c": "It demonstrates that a regular language cannot be pumped.",
+          "d": "It is only used for context-free languages."
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Incorrect. Try again.",
+          "c": "Correct! The Pumping Lemma is often used to show that a language is not regular by demonstrating violations of its conditions.",
+          "d": "Incorrect. Try again."
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }

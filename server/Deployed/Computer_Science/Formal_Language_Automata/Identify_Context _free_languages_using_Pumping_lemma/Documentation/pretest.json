@@ -1,0 +1,57 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "What does the Pumping Lemma aim to establish in the context of context-free grammars?",
+        "answers": {
+          "a": "The existence of a regular language.",
+          "b": "The non-existence of a context-free language.",
+          "c": "The equivalence of two context-free languages.",
+          "d": "The minimization of a context-free grammar."
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Correct! The Pumping Lemma is used to show the non-existence of certain context-free languages.",
+          "c": "Incorrect. Try again.",
+          "d": "Incorrect. Try again."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What type of languages does the Pumping Lemma apply to?",
+        "answers": {
+          "a": "Only regular languages.",
+          "b": "Context-free languages.",
+          "c": "Regular and context-free languages.",
+          "d": "All formal languages."
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Correct! The Pumping Lemma is specifically applicable to context-free languages.",
+          "c": "Incorrect. Try again.",
+          "d": "Incorrect. Try again."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "What is the main purpose of using the Pumping Lemma in the study of context-free grammars?",
+        "answers": {
+          "a": "To prove the regularity of a language.",
+          "b": "To identify context-free languages.",
+          "c": "To demonstrate the closure properties of context-free languages.",
+          "d": "To establish the complexity of a grammar."
+        },
+        "explanations": {
+          "a": "Incorrect. Try again.",
+          "b": "Correct! The Pumping Lemma is used to identify certain properties of context-free languages.",
+          "c": "Incorrect. Try again.",
+          "d": "Incorrect. Try again."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+    ]
+  }
+  

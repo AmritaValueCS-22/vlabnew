@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What are the essential components of a Non-Deterministic Pushdown Automaton (NPDA) used in the conversion from Context-Free Grammar (CFG)?",
+      "answers": {
+        "a": "Input alphabet, stack alphabet, transition function, initial state, final state",
+        "b": "Input alphabet, tape alphabet, transition function, initial state, final state",
+        "c": "Input alphabet, stack alphabet, transition function, start variable, acceptance state",
+        "d": "Input alphabet, stack alphabet, transition function, start state, end state"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "During the conversion from CFG to NPDA, what happens to the rules of the CFG?",
+      "answers": {
+        "a": "They are discarded.",
+        "b": "They are converted into states of the NPDA.",
+        "c": "They are transformed into transitions of the NPDA.",
+        "d": "They are applied directly to the input string."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following best describes the computational power of a Non-Deterministic Pushdown Automaton (NPDA) in relation to a Context-Free Grammar (CFG)?",
+      "answers": {
+        "a": "NPDA can recognize more languages than CFG.",
+        "b": "CFG can recognize more languages than NPDA.",
+        "c": "NPDA and CFG have equivalent computational power.",
+        "d": "NPDA and CFG have no relationship in terms of computational power."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}
